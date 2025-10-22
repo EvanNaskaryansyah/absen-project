@@ -1,5 +1,5 @@
 /vendor/
-node_modules/
+/node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -15,16 +15,20 @@ public/hot
 public_html/storage
 public_html/hot
 
-storage/*.key
+/storage/*.key
 .env
+.env.backup
+.env.production
+.phpunit.result.cache
+.phpunit.cache
 Homestead.yaml
 Homestead.json
-/.vagrant
-.phpunit.result.cache
+auth.json
+
+# IDE / editor
+/.fleet
+/.idea
+/.vscode
 
 /public/build
 /storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
